@@ -41,6 +41,11 @@
 
 
 ## Showcase
+<p align="center">
+  <img src="./assets/img/data_gifs/DatasetGifMatterport.gif">
+</p>
+
+
 
 
 # Usage
