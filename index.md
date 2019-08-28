@@ -42,7 +42,15 @@
 
 ## Showcase
 <p align="center">
-  <img src="./assets/img/data_gifs/DatasetGifMatterport.gif">
+  <div>
+    <img src="./assets/img/data_gifs/DatasetGifMatterport.gif" width="35%">
+  </div>
+  <div>
+    
+  </div>
+  <div>
+    <img src="./assets/img/data_gifs/DatasetGifStanford.gif" width="35%">
+  </div>
 </p>
 
 
