@@ -43,14 +43,15 @@
 ## Showcase
 <p align="center">
   <div> 
-    <img src="./assets/img/data_gifs/DatasetGifMatterport.gif" width="33%" style="float:left;">
+    <img src="./assets/img/data_gifs/DatasetGifMatterport.gif" width="33%" style="float:left; margin-right:3%;">
   </div>
   <div> 
-    <img src="./assets/img/data_gifs/DatasetGifStanford.gif" width="33%" style="float:left;">
+    <img src="./assets/img/data_gifs/DatasetGifStanford.gif" width="33%" style="float:left; margin-right:3%;">
   </div>
   <div> 
-    <img src="./assets/img/data_gifs/DatasetGifSunCG.gif" width="33%" style="float:left;">
+    <img src="./assets/img/data_gifs/DatasetGifSunCG.gif" width="33%" style="float:left; margin-right:3%;">
   </div>
+  <p style="clear:both;">
 </p>
 
 
