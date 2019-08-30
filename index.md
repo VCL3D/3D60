@@ -14,13 +14,17 @@
 
 ## Description
 
-# Formats
+### Formats
 
 <ul>
   <li> <b>RGB</b> images: <code>.png</code> [<b>Invalid pixel values</b>: (64, 64, 64)]</li>
   <li> <b>Depth</b> maps: (float) 1-channel <code>.exr</code><b>[Invalid pixel values</b>:(inf)]</li>
   <li> <b>Surface</b> maps: (float) 3-channel <code>.exr</code> [<b>Invalid pixel values</b>:(0.0, 0.0, 0.0), (nan, nan, nan)]</li>
 </ul>
+
+### Camera positions
+
+Regarding Matterport3D and Stanford2D3D we used the existing camera poses to render our dataset, while for SunCG we chose the center of each rendered room, which resulted to rendering artifacts and thus a number of invalid renders.
 
 ## Showcase
 <p align="center">
@@ -40,7 +44,32 @@
 # Usage
 
 ## Download
+<p>We follow a <b>two-step</b> procedure to download the <b>3D60</b> dataset.</p>
+<ol>
+  <li>
+    Access to 3D60 dataset requires to agree with the terms and conditions for each of the 3D datasets that were used to create (i.e. render) the 3D60 dataset. Therefore, in order to grant you access to this dataset, we need to you to first fill <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJBX2LYFlA7ZWBgSAPOWKlem3hEoxsh04Iju_ePARWVWa-vA/alreadyresponded">this</a> request form
+  </li>
+  <li>
+    Then you can request to download the dataset from the host-repository <a href="">Zenodo</a>. The dataset is split into three volumes (due to data-size limitations). The three volumes contain the Up, Left-Down and Right camera poses respectively.
+  </li>
+</ol>
+<p>
+Each volume is broken down in several <code>.zip</code> files (4GB each) for more convinient downloading on low bandwidth connections. You need all the <code>.zip</code> archives of each volume in order to extract the containing files.
+</p>
+<p>
+  Data-splits:
+</p>
 
+<p>
+  We provide the train, validation and test-splits that we used for each related research task that used parts of the 3D60 dataset:
+</p>
+<p>
+ <ul>
+   <li>Omnidepth: Dense Depth Estimation for Indoors Spherical Panoramas</li>
+   <li>Spherical View Synthesis</li>
+   <li>360<sup>o</sup> Surface Regression with a Hyper-Sphere Loss</li>
+ </ul>
+</p>
 
 ## Organization
 
