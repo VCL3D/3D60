@@ -4,7 +4,7 @@
 
 # Overview
 <p style="text-align: justify;">
-<b>3D60</b> is a collective dataset generated for contacting 360<sup>o</sup> research [<a href="#ref_omnidepth">1</a>, <a href="#ref_svs">2</a>, <a href="#ref_hypersphere">3</a>]. It is composed of renders from existing large-scale 3D datasets (Matterpot3D[<a hyref="#ref_matterport">4</a>], Stanford2D3D[<a hyref="#ref_stanford">5</a>], SunCG[<a hyref="#ref_suncg">6</a>]).
+<b>3D60</b> is a collective dataset generated for contacting 360<sup>o</sup> research [<a href="#ref_omnidepth">1</a>, <a href="#ref_svs">2</a>, <a href="#ref_hypersphere">3</a>]. It is composed of renders from existing large-scale 3D datasets (Matterpot3D[<a href="#ref_matterport">4</a>], Stanford2D3D[<a href="#ref_stanford">5</a>], SunCG[<a href="#ref_suncg">6</a>]).
 </p>
 
 ## Motivation
