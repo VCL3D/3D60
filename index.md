@@ -1,3 +1,7 @@
+<p>
+  <img src="./assets/img/Modalities.png" width="100%">
+</p>
+
 # Overview
 
 ## Motivation
