@@ -3,6 +3,7 @@
 </p>
 
 # Overview
+<b>3D60</b> is a collective dataset generated for contacting 360<sup>o</sup> research [<a href="##">1</a>, <a href="##">2</a>, <a href="##">3</a>]. It is composed of renders from existing large-scale 3D datasets (Matterpot3D[<a hyref="##">4</a>], Stanford2D3D[<a hyref="##">5</a>], SunCG[<a hyref="##">6</a>]).
 
 ## Motivation
 > Modern 3D vision advancements rely on data driven methods and thus, task specific annotated datasets.
@@ -13,6 +14,13 @@
 
 ## Description
 
+# Formats
+
+<ul>
+  <li> <b>RGB</b> images: <code>.png</code> [<b>Invalid pixel values</b>: (64, 64, 64)]</li>
+  <li> <b>Depth</b> maps: (float) 1-channel <code>.exr</code><b>[Invalid pixel values</b>:(inf)]</li>
+  <li> <b>Surface</b> maps: (float) 3-channel <code>.exr</code> [<b>Invalid pixel values</b>:(0.0, 0.0, 0.0), (nan, nan, nan)]</li>
+</ul>
 
 ## Showcase
 <p align="center">
