@@ -47,6 +47,7 @@ Regarding Matterport3D and Stanford2D3D we used the existing camera poses to ren
 # Usage
 
 ## Download
+<p style="text-align: justify;">
 <p>We follow a <b>two-step</b> procedure to download the <b>3D60</b> dataset.</p>
 <p style="text-align: justify;">
 <ol>
@@ -65,7 +66,7 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 <p>
   Data-splits:
 </p>
-
+</p>
 <p style="text-align: justify;">
   We provide the train, validation and test-splits that we used for each related research task that used parts of the 3D60 dataset:
 </p>
@@ -95,19 +96,19 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 <p id="ref_omnidepth">
 [<a href="https://arxiv.org/abs/1807.09620">1</a>] Zioulis, N., Karakottas, A., Zarpalas, D. and Daras, P., 2018. Omnidepth: Dense depth estimation for indoors spherical panoramas. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
 </p>
-<p id="ref_svs">
+<p id="ref_svs" style="text-align: justify;">
 [<a href="##">2</a>]
 </p>
-<p id="ref_hypersphere">
+<p id="ref_hypersphere" style="text-align: justify;">
 [<a href="##">3</a>]
 </p>
-<p id="ref_matterport">
+<p id="ref_matterport" style="text-align: justify;">
 [<a href="https://niessner.github.io/Matterport/">4</a>] Chang, A., Dai, A., Funkhouser, T., Halber, M., Niessner, M., Savva, M., Song, S., Zeng, A. and Zhang, Y., 2017. Matterport3d: Learning from rgb-d data in indoor environments. arXiv preprint arXiv:1709.06158.
 </p>
-<p id="ref_stanford">
+<p id="ref_stanford" style="text-align: justify;">
 [<a href="http://buildingparser.stanford.edu/dataset.html">5</a>] Armeni, I., Sax, S., Zamir, A.R. and Savarese, S., 2017. Joint 2d-3d-semantic data for indoor scene understanding. arXiv preprint arXiv:1702.01105.
 </p>
-<p id="ref_suncg">
+<p id="ref_suncg" style="text-align: justify;">
 [<a href="https://sscnet.cs.princeton.edu/">5</a>] Song, S., Yu, F., Zeng, A., Chang, A.X., Savva, M. and Funkhouser, T., 2017. Semantic scene completion from a single depth image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 1746-1754).
 </p>
 </p>
