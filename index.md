@@ -18,15 +18,24 @@
 
 ### Formats
 We offer 3 different modalities as indicated below, with the corresponding data formats following and the invalid values (due to imperfect scanning, holes manifest during rendering) denoted in brackets.
+
+| Image Type        | Data Format           | Invalid Value  |
+| ------------- |:-------------:|:-----:|
+| <b>Color</b> images | <code>.png</code> | gray, _i.e._ (64, 64, 64) |
+| <b>Depth</b> maps | single channel, floating point <code>.exr</code> | (inf) |
+| <b>Normal</b> maps | 3-channel (_x, y, z_), floating point <code>.exr</code> | (0.0f, 0.0f, 0.0f) & (nan, nan, nan) |
+
+<!--
 <ul>
   <li> <b>Color</b> images in <code>.png</code> -- [<b>Invalid color (grey) value</b>: (64, 64, 64)]</li>
   <li> <b>Depth</b> maps: in single channel, floating point <code>.exr</code><b> -- [Invalid depth value</b>: (inf)]</li>
   <li> <b>Normal</b> maps in 3-channel, floating point <code>.exr</code> -- [<b>Invalid normal values</b>: (0.0f, 0.0f, 0.0f), (nan, nan, nan)]</li>
 </ul>
+-->
 
 ### Camera positions
 <p style="text-align: justify;">
-Regarding Matterport3D and Stanford2D3D we used the existing camera poses to render our dataset, while for SunCG we chose the center of each rendered room, which resulted to rendering artifacts and thus a number of invalid renders.
+Our spherical panoramas are generated using the provided camera poses for Matterport3D and Stanford2D3D, while for SunCG we render from the center of the bounding box of each building, which resulted to rendering artifacts and thus a number of invalid renders.
 </p>
 
 ## Showcase
