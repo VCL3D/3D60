@@ -78,8 +78,9 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 </p>
 
 ## Organization
-
-
+<p>
+  <img src="./assets/img/DirectoryStruct.png" width="30%">
+</p>
 ## Tools
 
 # Bibliography
