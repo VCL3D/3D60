@@ -19,11 +19,11 @@
 ### Formats
 We offer 3 different modalities as indicated below, with the corresponding data formats following and the invalid values (due to imperfect scanning, holes manifest during rendering) denoted in brackets.
 
-| Image Type        | Data Format           | Invalid Value  |
+| __Image Type__        | __Data Format__           | __Invalid Value__  |
 | ------------- |:-------------:|:-----:|
-| <b>Color</b> images | <code>.png</code> | gray, _i.e._ (64, 64, 64) |
-| <b>Depth</b> maps | single channel, floating point <code>.exr</code> | (inf) |
-| <b>Normal</b> maps | 3-channel (_x, y, z_), floating point <code>.exr</code> | (0.0f, 0.0f, 0.0f) & (nan, nan, nan) |
+| `Color` images | <code>.png</code> | gray, _i.e._ `(64, 64, 64)` |
+| `Depth` maps | single channel, floating point <code>.exr</code> | `(inf)` |
+| `Normal` maps | 3-channel (_x, y, z_), floating point <code>.exr</code> | `(0.0f, 0.0f, 0.0f)` & `(nan, nan, nan)` |
 
 <!--
 <ul>
