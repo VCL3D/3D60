@@ -11,17 +11,17 @@
 > Modern 3D vision advancements rely on data driven methods and thus, task specific annotated datasets.
 > Especially for geometric inference tasks like depth and surface estimation, the collection of high quality data is very challenging, expensive and laborious.
 > While considerable efforts have been made for traditional pinhole cameras, the same cannot be said for omnidirectional ones.
-> Our __3D60<sup>o</sup>__ dataset fills a very important gap in data-driven spherical 3D vision and namely for monocular and stereo dense depth and surface estimation.
+> Our __3D60<sup>o</sup>__ dataset fills a very important gap in data-driven spherical 3D vision and, more specifically, for monocular and stereo dense depth and surface estimation.
 > _We originate by exploiting the efforts made in providing synthetic and real scanned 3D datasets of interior spaces and re-using them via ray-tracing in order to generate high quality, densely annotated spherical panoramas._
 
 ## Description
 
 ### Formats
-
+We offer 3 different modalities as indicated below, with the corresponding data formats following and the invalid values (due to imperfect scanning, holes manifest during rendering) denoted in brackets.
 <ul>
-  <li> <b>RGB</b> images: <code>.png</code> [<b>Invalid pixel values</b>: (64, 64, 64)]</li>
-  <li> <b>Depth</b> maps: (float) 1-channel <code>.exr</code><b>[Invalid pixel values</b>:(inf)]</li>
-  <li> <b>Surface</b> maps: (float) 3-channel <code>.exr</code> [<b>Invalid pixel values</b>:(0.0, 0.0, 0.0), (nan, nan, nan)]</li>
+  <li> <b>Color</b> images in <code>.png</code> -- [<b>Invalid color (grey) value</b>: (64, 64, 64)]</li>
+  <li> <b>Depth</b> maps: in single channel, floating point <code>.exr</code><b> -- [Invalid depth value</b>: (inf)]</li>
+  <li> <b>Normal</b> maps in 3-channel, floating point <code>.exr</code> -- [<b>Invalid normal values</b>: (0.0f, 0.0f, 0.0f), (nan, nan, nan)]</li>
 </ul>
 
 ### Camera positions
