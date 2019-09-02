@@ -3,11 +3,6 @@
 </p>
 
 # Overview
-<!--
-<p style="text-align: justify;">
-<b>3D60</b> is a collective dataset generated for contacting 360<sup>o</sup> research [<a href="#ref_omnidepth"><b>1</b></a>, <a href="#ref_svs"><b>2</b></a>, <a href="#ref_hypersphere"><b>3<b/></a>]. It comprises multi-modal stereo renders of scenes from realistic and synthetic large-scale 3D datasets (Matterport3D [<a href="#ref_matterport"><b>4</b></a>], Stanford2D3D [<a href="#ref_stanford"><b>5</b></a>], SunCG [<a href="#ref_suncg"><b>6</b></a>]).
-</p>
--->
 __3D60__ is a collective dataset generated for contacting 360<sup>o</sup> research __\[[1](#ref_omnidepth)]\]__, __\[[2](#ref_svs)\]__, __\[[3](#ref_hypersphere)\]__. 
 It comprises multi-modal stereo renders of scenes from realistic and synthetic large-scale 3D datasets (Matterport3D __\[[4](#ref_matterport)\]__, Stanford2D3D __\[[5](#ref_stanford)\]__, SunCG __\[[6](#ref_suncg)\]__).
 
@@ -29,14 +24,6 @@ We offer 3 different modalities as indicated below, with the corresponding data 
 | `Depth` maps | single channel, floating point <code>.exr</code> | `(inf)` |
 | `Normal` maps | 3-channel (_x, y, z_), floating point <code>.exr</code> | `(0.0f, 0.0f, 0.0f)` & `(nan, nan, nan)` |
 
-<!--
-<ul>
-  <li> <b>Color</b> images in <code>.png</code> -- [<b>Invalid color (grey) value</b>: (64, 64, 64)]</li>
-  <li> <b>Depth</b> maps: in single channel, floating point <code>.exr</code><b> -- [Invalid depth value</b>: (inf)]</li>
-  <li> <b>Normal</b> maps in 3-channel, floating point <code>.exr</code> -- [<b>Invalid normal values</b>: (0.0f, 0.0f, 0.0f), (nan, nan, nan)]</li>
-</ul>
--->
-
 ### Camera positions
 <p style="text-align: justify;">
 Our spherical panoramas are generated using the provided camera poses for Matterport3D and Stanford2D3D, while for SunCG we render from the center of the bounding box of each building, which resulted to rendering artifacts and thus a number of invalid renders.
@@ -56,7 +43,6 @@ Our spherical panoramas are generated using the provided camera poses for Matter
   <p style="clear:both;"/>
 </p>
 
-
 # Usage
 
 ## Download
@@ -71,6 +57,10 @@ Our spherical panoramas are generated using the provided camera poses for Matter
     Then you can request to download the dataset from the host-repository <a href="">Zenodo</a>. The dataset is split into three volumes (due to data-size limitations). The three volumes contain the Up, Left-Down and Right camera poses respectively.
   </li>
 </ol>
+</p>
+<p style="text-align: justify;">
+  <b>Note</b> that only completing one step of the two (<i>i.e.</i> only filling out the form, or only requesting access from the Zenodo repositories <b>will not</b> be enough to get access to the data. We will do our best to contact you in such cases and notify you to complete all steps as needed, but our mails may be lost (e.g. spam filters/folders). 
+  The only exception to this, is if you have already filled in the form and need access to another Zenodo repository (for example you need extra viewpoint renders which are hosted on different Zenodo repositories), then you only need to fill in the Zenodo request but please, make sure to mention that the form has already been filled in so that we can verify it.
 </p>
 <p style="text-align: justify;">
 Each volume is broken down in several <code>.zip</code> files (4GB each) for more convinient downloading on low bandwidth connections. You need all the <code>.zip</code> archives of each volume in order to extract the containing files.
