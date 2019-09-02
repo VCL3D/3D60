@@ -62,13 +62,13 @@ Our spherical panoramas are generated using the provided camera poses for Matter
   <b>Note</b> that only completing one step of the two (<i>i.e.</i> only filling out the form, or only requesting access from the Zenodo repositories <b>will not</b> be enough to get access to the data. We will do our best to contact you in such cases and notify you to complete all steps as needed, but our mails may be lost (e.g. spam filters/folders). 
   The only exception to this, is if you have already filled in the form and need access to another Zenodo repository (for example you need extra viewpoint renders which are hosted on different Zenodo repositories), then you only need to fill in the Zenodo request but please, make sure to mention that the form has already been filled in so that we can verify it.
 </p>
+
 <p style="text-align: justify;">
 Each volume is broken down in several <code>.zip</code> files (4GB each) for more convinient downloading on low bandwidth connections. You need all the <code>.zip</code> archives of each volume in order to extract the containing files.
 </p>
 
-<p>
-  Data-splits:
-</p>
+## Data-splits:
+
 </p>
 <p style="text-align: justify;">
   We provide the train, validation and test-splits that we used for each related research task that used parts of the 3D60 dataset:
