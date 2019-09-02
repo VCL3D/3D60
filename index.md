@@ -3,7 +3,7 @@
 </p>
 
 # Overview
-__3D60__ is a collective dataset generated for contacting 360<sup>o</sup> research __\[[1](#OmniDepth)]\]__, __\[[2](#SVS)\]__, __\[[3](#HyperSphere)\]__. 
+__3D60__ is a collective dataset generated for contacting 360<sup>o</sup> research __\[[1](#OmniDepth)\]__, __\[[2](#SVS)\]__, __\[[3](#HyperSphere)\]__. 
 It comprises multi-modal stereo renders of scenes from realistic and synthetic large-scale 3D datasets (Matterport3D __\[[4](#Matterport3D)\]__, Stanford2D3D __\[[5](#Stanford2D3D)\]__, SunCG __\[[6](#SunCG)\]__).
 
 ## Motivation
@@ -95,11 +95,11 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 
 
 ## References
-<a name="OmniDepth"/>__[1]__ Zioulis, N.__\*__, Karakottas, A.__\*__, Zarpalas, D., & Daras, P. (2018). [Omnidepth: Dense depth estimation for indoors spherical panoramas](https://arxiv.org/pdf/1807.09620.pdf). In Proceedings of the European Conference on Computer Vision (ECCV).
+<a name="OmniDepth"/>__[1]__ Zioulis, N.__\*__, Karakottas, A.__\*__, Zarpalas, D., and Daras, P. (2018). [Omnidepth: Dense depth estimation for indoors spherical panoramas](https://arxiv.org/pdf/1807.09620.pdf). In Proceedings of the European Conference on Computer Vision (ECCV).
 
-<a name="SVS"/>__[2]__ Zioulis, N., Karakottas, A., Zarpalas, D., Alvarez, F., & Daras, P. (2019). [Spherical View Synthesis for Self-Supervised 360<sup>o</sup> Depth Estimation](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
+<a name="SVS"/>__[2]__ Zioulis, N., Karakottas, A., Zarpalas, D., Alvarez, F., and Daras, P. (2019). [Spherical View Synthesis for Self-Supervised 360<sup>o</sup> Depth Estimation](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
 
-<a name="HyperSphere"/>__[3]__ Karakottas, A., Zioulis, N., Samaras, S., Ataloglou, D., Gkitsas, V., Zarpalas, D., & Daras, P. (2019). [360<sup>o</sup> Surface Regression with a Hyper-sphere Loss](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
+<a name="HyperSphere"/>__[3]__ Karakottas, A., Zioulis, N., Samaras, S., Ataloglou, D., Gkitsas, V., Zarpalas, D., and Daras, P. (2019). [360<sup>o</sup> Surface Regression with a Hyper-sphere Loss](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
 
 <a name="Matterport3D"/> __\[[4](https://niessner.github.io/Matterport/)\]__ Chang, A., Dai, A., Funkhouser, T., Halber, M., Niessner, M., Savva, M., Song, S., Zeng, A. and Zhang, Y. (2017). [Matterport3d: Learning from rgb-d data in indoor environments](https://arxiv.org/pdf/1709.06158.pdf). In Proceedings of the International Conference on 3D Vision (3DV).
 
