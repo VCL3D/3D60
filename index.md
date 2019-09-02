@@ -54,7 +54,7 @@ Our spherical panoramas are generated using the provided camera poses for Matter
     Access to 3D60 dataset requires to agree with the terms and conditions for each of the 3D datasets that were used to create (i.e. render) the 3D60 dataset. Therefore, in order to grant you access to this dataset, we need to you to first fill <a href="https://drive.google.com/open?id=1qvo9le8TViOTUzJzcwdP0jUZUN90dWBzD-qcKisXe-w">this</a> request form
   </li>
   <li>
-    Then you can request to download the dataset from the host-repository <a href="">Zenodo</a>. The dataset is split into three volumes (due to data-size limitations). The three volumes contain the Up, Left-Down and Right camera poses respectively.
+    Then you can request to download the dataset from the host-repository <a href="">Zenodo</a>. The dataset is split into three volumes (due to data-size limitations). The three volumes contain the Up, Left-Down (<i>i.e.</i> Center) and Right viewpoints respectively.
   </li>
 </ol>
 </p>
