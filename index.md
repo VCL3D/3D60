@@ -3,9 +3,13 @@
 </p>
 
 # Overview
+<!--
 <p style="text-align: justify;">
 <b>3D60</b> is a collective dataset generated for contacting 360<sup>o</sup> research [<a href="#ref_omnidepth"><b>1</b></a>, <a href="#ref_svs"><b>2</b></a>, <a href="#ref_hypersphere"><b>3<b/></a>]. It comprises multi-modal stereo renders of scenes from realistic and synthetic large-scale 3D datasets (Matterport3D [<a href="#ref_matterport"><b>4</b></a>], Stanford2D3D [<a href="#ref_stanford"><b>5</b></a>], SunCG [<a href="#ref_suncg"><b>6</b></a>]).
 </p>
+-->
+__3D60__ is a collective dataset generated for contacting 360<sup>o</sup> research __\[[1](#ref_omnidepth)]\]__, __\[[2](#ref_svs)\]__, __\[[3](#ref_hypersphere)\]__. 
+It comprises multi-modal stereo renders of scenes from realistic and synthetic large-scale 3D datasets (Matterport3D __\[[4](#ref_matterport)\]__, Stanford2D3D __\[[5](#ref_stanford)\]__, SunCG __\[[6](#ref_suncg)\]__).
 
 ## Motivation
 > Modern 3D vision advancements rely on data driven methods and thus, task specific annotated datasets.
