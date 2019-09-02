@@ -4,7 +4,7 @@
 
 # Overview
 __3D60__ is a collective dataset generated for contacting 360<sup>o</sup> research __\[[1](#ref_omnidepth)]\]__, __\[[2](#ref_svs)\]__, __\[[3](#ref_hypersphere)\]__. 
-It comprises multi-modal stereo renders of scenes from realistic and synthetic large-scale 3D datasets (Matterport3D __\[[4](#ref_matterport)\]__, Stanford2D3D __\[[5](#ref_stanford)\]__, SunCG __\[[6](#ref_suncg)\]__).
+It comprises multi-modal stereo renders of scenes from realistic and synthetic large-scale 3D datasets (Matterport3D __\[[4](#Matterport3D)\]__, Stanford2D3D __\[[5](#ref_stanford)\]__, SunCG __\[[6](#ref_suncg)\]__).
 
 ## Motivation
 > Modern 3D vision advancements rely on data driven methods and thus, task specific annotated datasets.
@@ -95,6 +95,21 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 
 
 ## References
+<a name="OmniDepth"/>__[1]__ Zioulis, N.__\*__, Karakottas, A.__\*__, Zarpalas, D., & Daras, P. (2018). [Omnidepth: Dense depth estimation for indoors spherical panoramas](https://arxiv.org/pdf/1807.09620.pdf). In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
+
+<a name="SVS"/>__[2]__ Zioulis, N., Karakottas, A., Zarpalas, D., Alvarez, F., & Daras, P. (2019). [Spherical View Synthesis for Self-Supervised 360<sup>o</sup> Depth Estimation](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
+
+<a name="HyperSphere"/>__[3]__ Karakottas, A., Zioulis, N., Samaras, S., Ataloglou, D., Gkitsas, V., Zarpalas, D., & Daras, P. (2019). [360<sup>o</sup> Surface Regression with a Hyper-sphere Loss](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
+
+<a name="Matterport3D"/> __[4]__ Chang, A., Dai, A., Funkhouser, T., Halber, M., Niessner, M., Savva, M., Song, S., Zeng, A. and Zhang, Y. (2017). [Matterport3d: Learning from rgb-d data in indoor environments](https://niessner.github.io/Matterport/). In Proceedings of the International Conference on 3D Vision (3DV).
+
+<p id="ref_stanford" style="text-align: justify;">
+[<a href="http://buildingparser.stanford.edu/dataset.html">5</a>] Armeni, I., Sax, S., Zamir, A.R. and Savarese, S., 2017. Joint 2d-3d-semantic data for indoor scene understanding. arXiv preprint arXiv:1702.01105.
+</p>
+<p id="ref_suncg" style="text-align: justify;">
+[<a href="https://sscnet.cs.princeton.edu/">5</a>] Song, S., Yu, F., Zeng, A., Chang, A.X., Savva, M. and Funkhouser, T., 2017. Semantic scene completion from a single depth image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 1746-1754).
+
+<!--
 <p style="text-align: justify">
 <p id="ref_omnidepth">
 [<a href="https://arxiv.org/abs/1807.09620">1</a>] Zioulis, N., Karakottas, A., Zarpalas, D. and Daras, P., 2018. Omnidepth: Dense depth estimation for indoors spherical panoramas. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
@@ -115,3 +130,4 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 [<a href="https://sscnet.cs.princeton.edu/">5</a>] Song, S., Yu, F., Zeng, A., Chang, A.X., Savva, M. and Funkhouser, T., 2017. Semantic scene completion from a single depth image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 1746-1754).
 </p>
 </p>
+-->
