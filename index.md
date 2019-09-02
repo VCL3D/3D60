@@ -101,7 +101,7 @@ This dataset has been generated within the context of the European Union’s Hor
 
 We would like to thank NVIDIA for supporting us with the donation of a NVIDIA Titan Xp GPU through the NVIDIA GPU Grant Program.
 
-<img src="./assets/images/en_square_cef_logo_0.png" width="150"/><img src="./assets/images/h360.png" width="150"/><img src="./assets/images/NVLogo_2D.jpg" width="150"/>
+<img src="./assets/img/en_square_cef_logo_0.png" width="150"/><img src="./assets/img/h360.png" width="150"/><img src="./assets/img/NVLogo_2D.jpg" width="150"/>
 
 # References
 <a name="OmniDepth"/>__\[[1](https://vcl.iti.gr//360-dataset)\]__ Zioulis, N.__\*__, Karakottas, A.__\*__, Zarpalas, D., and Daras, P. (2018). [Omnidepth: Dense depth estimation for indoors spherical panoramas](https://arxiv.org/pdf/1807.09620.pdf). In Proceedings of the European Conference on Computer Vision (ECCV).
