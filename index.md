@@ -66,10 +66,10 @@ Our spherical panoramas are generated using the provided camera poses for Matter
 <p style="text-align: justify;">
 Each volume is broken down in several <code>.zip</code> files (4GB each) for more convinient downloading on low bandwidth connections. You need all the <code>.zip</code> archives of each volume in order to extract the containing files.
 </p>
+</p>
 
 ## Data-splits:
 
-</p>
 <p style="text-align: justify;">
   We provide the train, validation and test-splits that we used for each related research task that used parts of the 3D60 dataset:
 </p>
@@ -95,7 +95,7 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 
 
 ## References
-<a name="OmniDepth"/>__[1]__ Zioulis, N.__\*__, Karakottas, A.__\*__, Zarpalas, D., and Daras, P. (2018). [Omnidepth: Dense depth estimation for indoors spherical panoramas](https://arxiv.org/pdf/1807.09620.pdf). In Proceedings of the European Conference on Computer Vision (ECCV).
+<a name="OmniDepth"/>__\[[1](https://vcl.iti.gr//360-dataset)\]__ Zioulis, N.__\*__, Karakottas, A.__\*__, Zarpalas, D., and Daras, P. (2018). [Omnidepth: Dense depth estimation for indoors spherical panoramas](https://arxiv.org/pdf/1807.09620.pdf). In Proceedings of the European Conference on Computer Vision (ECCV).
 
 <a name="SVS"/>__[2]__ Zioulis, N., Karakottas, A., Zarpalas, D., Alvarez, F., and Daras, P. (2019). [Spherical View Synthesis for Self-Supervised 360<sup>o</sup> Depth Estimation](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
 
