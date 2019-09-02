@@ -73,13 +73,11 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 <p style="text-align: justify;">
   We provide the train, validation and test-splits that we used for each related research task that used parts of the 3D60 dataset:
 </p>
-<p>
- <ul>
-   <li>Omnidepth: Dense Depth Estimation for Indoors Spherical Panoramas</li>
-   <li>Spherical View Synthesis</li>
-   <li>360<sup>o</sup> Surface Regression with a Hyper-Sphere Loss</li>
- </ul>
-</p>
+
+* Omnidepth: Dense Depth Estimation for Indoors Spherical Panoramas __\[[1](#OmniDepth)\]__
+* Spherical View Synthesis for Self-Supervised 360<sup>o</sup> Depth Estimation __\[[2](#SVS)\]__
+* 360<sup>o</sup> Surface Regression with a Hyper-Sphere Loss __\[[3](#HyperSphere)\]__
+
 
 ## Organization
 <p>
@@ -93,7 +91,7 @@ _TODO_
 _TODO_
 
 ## Contact
-Please direct any questions related to the code, models and dataset to [nzioulis@iti.gr](mailto:nzioulis@iti.gr) or post a [GitHub issue](https://github.com/VCL3D/3D60/issues).
+Please direct any questions related to the dataset and tools to [nzioulis@iti.gr](mailto:nzioulis@iti.gr) or post a [GitHub issue](https://github.com/VCL3D/3D60/issues).
 
 # Acknowledgements
 
