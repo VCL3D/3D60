@@ -2,3 +2,9 @@ title: 3D60<sup>o</sup> Dataset
 description: 3D Vision Indoors Spherical Panoramas
 show_downloads: true
 theme: jekyll-theme-architect
+
+github:
+  form_url: http://example.com/download.zip
+  zenodo_url: http://test.com/download.tar
+  owner_url: https://zokin.github.io
+  owner_name: Nikolaos Zioulis  
