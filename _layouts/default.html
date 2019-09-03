@@ -39,13 +39,15 @@
         <aside id="sidebar">
           {% if site.show_downloads %}
             <a href="{{ site.github.form_url }}" class="button">
-              <small>Fill in</small>
+              <strong>1) </strong><small>Fill in</small>
               Form
             </a>
             <a href="{{ site.github.zenodo_url }}" class="button">
-              <small>Download</small>
+              <strong>2) </strong><small>Download</small>
               Data
             </a>
+          <a href="{{ site.github.repository_url }}" class="button">
+            <strong>3) </strong><small>Fork tools from</small> GitHub</a>
           {% endif %}
 
           {% if site.github.is_project_page %}
