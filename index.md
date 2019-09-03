@@ -87,8 +87,9 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 ## Tools
 
 The 3D60 dataset is [accompanied](https://github.com/VCL3D/3D60) by:
+
 - [ ] Data loading code:
-  - [x] PyTorch data loaders
+  - [x] Flexible PyTorch data loaders, configurable to load only specific parts, modalities or placements
   - [ ] Longitudinal rotation (_i.e._ circular shift) data augmentation
   - [x] Script to visualize the 3D60 dataset using visdom, as an example of using the PyTorch data loaders
 - [ ] Data clean up and splitting code:
@@ -97,7 +98,40 @@ The 3D60 dataset is [accompanied](https://github.com/VCL3D/3D60) by:
   - [ ] Script to generate train/test/val splits for each part of the dataset (using each 3D dataset's official splits), also ignoring 'outliers'
 
 ## Citations
-_TODO_
+The 3D60 data have been generated during distinct works and thus, depending on which subset (_i.e._ modalities and/or placements) are used, please cite the corresponding papers as follows:
+
+* Depth maps:
+```
+@inproceedings{zioulis2018omnidepth,
+  title={Omnidepth: Dense depth estimation for indoors spherical panoramas},
+  author={Zioulis, Nikolaos and Karakottas, Antonis and Zarpalas, Dimitrios and Daras, Petros},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={448--465},
+  year={2018}
+}
+```
+
+* Normals maps:
+```
+ @inproceedings{karakottas2019360surface,
+        author      = "Karakottas, Antonis and Zioulis, Nikolaos and Samaras, Stamatis and Ataloglou, Dimitrios and Gkitsas, Vasileios and Zarpalas, Dimitrios and Daras, Petros",
+        title       = "360 Surface Regression with a Hyper-Sphere Loss",
+        booktitle   = "International Conference on 3D Vision",
+        month       = "September",
+        year        = "2019"
+      }
+```
+
+* Stereo pairs:
+```
+@inproceedings{zioulis2019spherical,
+  author       = "Zioulis, Nikolaos and Karakottas, Antonis and Zarpalas, Dimitris and Alvarez, Federic and Daras, Petros",
+  title        = "Spherical View Synthesis for Self-Supervised $360^o$ Depth Estimation",
+  booktitle    = "International Conference on 3D Vision (3DV)",
+  month        = "September",
+  year         = "2019"
+}
+```
 
 ## Contact
 Please direct any questions related to the dataset and tools to [nzioulis@iti.gr](mailto:nzioulis@iti.gr) or post a [GitHub issue](https://github.com/VCL3D/3D60/issues).
