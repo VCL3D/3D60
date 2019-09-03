@@ -85,7 +85,13 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 </p>
 
 ## Tools
-_TODO_
+
+The 3D60 dataset is [accompanied](https://github.com/VCL3D/3D60) by:
+- [x] PyTorch data loaders
+- [ ] Longitudinal rotation (_i.e._ circular shift) data augmentation
+- [ ] Script to calculate the depth map statistics for each of its parts (_i.e._ distinct 3D datasets)
+- [ ] Script to estimate 'outlier' renders whose depth distributions lie away or exceed certain thresholds
+- [ ] Script to generate train/test/val splits for each part of the dataset (using each 3D dataset's official splits), also ignoring 'outliers'
 
 ## Citations
 _TODO_
