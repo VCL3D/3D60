@@ -78,6 +78,7 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 * Spherical View Synthesis for Self-Supervised 360<sup>o</sup> Depth Estimation __\[[2](#SVS)\]__
 * 360<sup>o</sup> Surface Regression with a Hyper-Sphere Loss __\[[3](#HyperSphere)\]__
 
+However, we recommend using the [common splits]() used in the latter two works (__\[[2](#SVS), [3](#HyperSphere)\]__) as it is based on the official splits of the 3D datasets used to render the panoramas.
 
 ## Organization
 <p>
@@ -86,13 +87,13 @@ Each volume is broken down in several <code>.zip</code> files (4GB each) for mor
 
 ## Tools
 
-The 3D60 dataset is [accompanied](https://github.com/VCL3D/3D60) by:
+The 3D60 dataset is accompanied by [code @ GitHub](https://github.com/VCL3D/3D60) to:
 
-- [ ] Data loading code:
+- [ ] Load Data:
   - [x] Flexible PyTorch data loaders, configurable to load only specific parts, modalities or placements
   - [ ] Longitudinal rotation (_i.e._ circular shift) data augmentation
   - [x] Script to visualize the 3D60 dataset using visdom, as an example of using the PyTorch data loaders
-- [ ] Data clean up and splitting code:
+- [ ] Prepare Splits:
   - [ ] Script to calculate the depth map statistics for each of its parts (_i.e._ distinct 3D datasets)
   - [ ] Script to estimate 'outlier' renders whose depth distributions lie away or exceed certain thresholds
   - [ ] Script to generate train/test/val splits for each part of the dataset (using each 3D dataset's official splits), also ignoring 'outliers'
@@ -100,7 +101,7 @@ The 3D60 dataset is [accompanied](https://github.com/VCL3D/3D60) by:
 ## Citations
 The 3D60 data have been generated during distinct works and thus, depending on which subset (_i.e._ modalities and/or placements) are used, please cite the corresponding papers as follows:
 
-* Depth maps:
+* __Depth maps__:
 ```
 @inproceedings{zioulis2018omnidepth,
   title={Omnidepth: Dense depth estimation for indoors spherical panoramas},
@@ -111,7 +112,7 @@ The 3D60 data have been generated during distinct works and thus, depending on w
 }
 ```
 
-* Normals maps:
+* __Normals maps__:
 ```
  @inproceedings{karakottas2019360surface,
         author      = "Karakottas, Antonis and Zioulis, Nikolaos and Samaras, Stamatis and Ataloglou, Dimitrios and Gkitsas, Vasileios and Zarpalas, Dimitrios and Daras, Petros",
@@ -122,7 +123,7 @@ The 3D60 data have been generated during distinct works and thus, depending on w
       }
 ```
 
-* Stereo pairs:
+* __Stereo pairs__:
 ```
 @inproceedings{zioulis2019spherical,
   author       = "Zioulis, Nikolaos and Karakottas, Antonis and Zarpalas, Dimitris and Alvarez, Federic and Daras, Petros",
@@ -147,9 +148,9 @@ We would like to thank NVIDIA for supporting us with the donation of a NVIDIA Ti
 # References
 <a name="OmniDepth"/>__\[[1](https://vcl.iti.gr//360-dataset)\]__ Zioulis, N.__\*__, Karakottas, A.__\*__, Zarpalas, D., and Daras, P. (2018). [Omnidepth: Dense depth estimation for indoors spherical panoramas](https://arxiv.org/pdf/1807.09620.pdf). In Proceedings of the European Conference on Computer Vision (ECCV).
 
-<a name="SVS"/>__[2]__ Zioulis, N., Karakottas, A., Zarpalas, D., Alvarez, F., and Daras, P. (2019). [Spherical View Synthesis for Self-Supervised 360<sup>o</sup> Depth Estimation](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
+<a name="SVS"/>__[[2](https://vcl3d.github.io/SphericalViewSynthesis/)]__ Zioulis, N., Karakottas, A., Zarpalas, D., Alvarez, F., and Daras, P. (2019). [Spherical View Synthesis for Self-Supervised 360<sup>o</sup> Depth Estimation](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
 
-<a name="HyperSphere"/>__[3]__ Karakottas, A., Zioulis, N., Samaras, S., Ataloglou, D., Gkitsas, V., Zarpalas, D., and Daras, P. (2019). [360<sup>o</sup> Surface Regression with a Hyper-sphere Loss](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
+<a name="HyperSphere"/>__[[3](https://vcl3d.github.io/HyperSphereSurfaceRegression/)]__ Karakottas, A., Zioulis, N., Samaras, S., Ataloglou, D., Gkitsas, V., Zarpalas, D., and Daras, P. (2019). [360<sup>o</sup> Surface Regression with a Hyper-sphere Loss](https://arxiv.org/). In Proceedings of the International Conference on 3D Vision (3DV).
 
 <a name="Matterport3D"/> __\[[4](https://niessner.github.io/Matterport/)\]__ Chang, A., Dai, A., Funkhouser, T., Halber, M., Niessner, M., Savva, M., Song, S., Zeng, A. and Zhang, Y. (2017). [Matterport3d: Learning from rgb-d data in indoor environments](https://arxiv.org/pdf/1709.06158.pdf). In Proceedings of the International Conference on 3D Vision (3DV).
 
