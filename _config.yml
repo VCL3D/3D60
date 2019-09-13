@@ -5,7 +5,7 @@ theme: jekyll-theme-architect
 
 github:
   form_url: http://example.com/download.zip
-  zenodo_url: http://test.com/download.tar
+  zenodo_url: ./download.md
   owner_url: https://zokin.github.io
   owner_name: Nikolaos Zioulis  
   
