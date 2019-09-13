@@ -3,7 +3,7 @@
 </p>
 
 # Overview
-__3D60__ is a collective dataset generated for conducting 360<sup>o</sup> research __\[[1](#OmniDepth)\]__, __\[[2](#SVS)\]__, __\[[3](#HyperSphere)\]__. 
+__3D60__ is a collective dataset generated in the context of various 360<sup>o</sup> vision research works __\[[1](#OmniDepth)\]__, __\[[2](#SVS)\]__, __\[[3](#HyperSphere)\]__. 
 It comprises multi-modal stereo renders of scenes from realistic and synthetic large-scale 3D datasets (Matterport3D __\[[4](#Matterport3D)\]__, Stanford2D3D __\[[5](#Stanford2D3D)\]__, SunCG __\[[6](#SunCG)\]__).
 
 ## Motivation
