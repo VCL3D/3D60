@@ -51,10 +51,10 @@ Our spherical panoramas are generated using the provided camera poses for Matter
 <p style="text-align: justify;">
 <ol>
   <li>
-    Access to 3D60 dataset requires to agree with the terms and conditions for each of the 3D datasets that were used to create (i.e. render) the 3D60 dataset. Therefore, in order to grant you access to this dataset, we need to you to first fill <a href="https://drive.google.com/open?id=1qvo9le8TViOTUzJzcwdP0jUZUN90dWBzD-qcKisXe-w">this</a> request form
+    Access to 3D60 dataset requires to agree with the terms and conditions for each of the 3D datasets that were used to create (i.e. render) the 3D60 dataset. Therefore, in order to grant you access to this dataset, we need to you to first fill <a href="https://forms.gle/ikJW2QU88GDahEBr6">this request form.</a>
   </li>
   <li>
-    Then you can request to download the dataset from the host-repository <a href="">Zenodo</a>. The dataset is split into three volumes (due to data-size limitations). The three volumes contain the Up, Left-Down (<i>i.e.</i> Center) and Right viewpoints respectively.
+    Then you can request to [download](./download.html) the dataset from the host-repository Zenodo. Due to data-size limitations, the dataset is split into three volumes, which respectively contain the [Central](https://zenodo.org/record/3407840#.XX06KygzaUk) (<i>i.e.</i> Left-Down), [Right](https://zenodo.org/record/3407875#.XX08HCgzaUk) and [Up](https://zenodo.org/record/3408441#.XX1QWCgzaUk) viewpoints respectively.
   </li>
 </ol>
 </p>
@@ -93,7 +93,7 @@ The 3D60 dataset is accompanied by [code @ GitHub](https://github.com/VCL3D/3D60
   - [x] Flexible PyTorch data loaders, configurable to load only specific parts, modalities or placements
   - [ ] Longitudinal rotation (_i.e._ circular shift) data augmentation
   - [x] Script to visualize the 3D60 dataset using visdom, as an example of using the PyTorch data loaders
-- [ ] Prepare Splits:
+- [ ] Preparation Splits:
   - [ ] Script to calculate the depth map statistics for each of its parts (_i.e._ distinct 3D datasets)
   - [ ] Script to estimate 'outlier' renders whose depth distributions lie away or exceed certain thresholds
   - [ ] Script to generate train/test/val splits for each part of the dataset (using each 3D dataset's official splits), also ignoring 'outliers'
