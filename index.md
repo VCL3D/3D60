@@ -26,7 +26,7 @@ We offer 3 different modalities as indicated below, with the corresponding data 
 
 ### Camera positions
 <p style="text-align: justify;">
-Our spherical panoramas are generated using the provided camera poses for Matterport3D and Stanford2D3D, while for SunCG we render from the center of the bounding box of each building, which resulted to rendering artifacts and thus a number of invalid renders.
+Our spherical panoramas are generated using the provided camera poses for Matterport3D and Stanford2D3D, while for SunCG we render from the center of the bounding box of each building, which resulted to rendering artifacts and thus, a number of invalid renders.
 </p>
 
 ## Showcase
