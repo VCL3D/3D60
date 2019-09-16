@@ -6,7 +6,7 @@ Each part is uploaded on Zenodo as a distinct repository and thus, for each part
 
 
 |__Viewpoint__|__Zenodo repository__|
-|:---|:---|
+|:---:|:---:|
 |Central (_i.e._ Left/Down)|[Central Viewpoint Request Link](https://zenodo.org/record/3407840#.XX06KygzaUk)|
 |Right|[Right Viewpoint Request Link](https://zenodo.org/record/3407875#.XX08HCgzaUk)|
 |Up|[Up Viewpoint Request Link](https://zenodo.org/record/3408441#.XX1QWCgzaUk)|
