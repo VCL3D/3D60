@@ -4,7 +4,7 @@ show_downloads: true
 theme: jekyll-theme-architect
 
 github:
-  form_url: http://example.com/download.zip
+  form_url: https://forms.gle/ikJW2QU88GDahEBr6
   zenodo_url: ./download.html
   owner_url: https://zokin.github.io
   owner_name: Nikolaos Zioulis  
