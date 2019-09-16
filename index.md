@@ -64,7 +64,7 @@ Our spherical panoramas are generated using the provided camera poses for Matter
 </p>
 
 <p style="text-align: justify;">
-Each volume is broken down in several <code>.zip</code> files (4GB each) for more convinient downloading on low bandwidth connections. You need all the <code>.zip</code> archives of each volume in order to extract the containing files.
+Each volume is broken down in several <code>.zip</code> files (2GB each) for more convinient downloading on low bandwidth connections. You need all the <code>.zip</code> archives of each volume in order to extract the containing files.
 </p>
 </p>
 
