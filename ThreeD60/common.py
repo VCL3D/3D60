@@ -5,6 +5,7 @@ import numpy
 import torch
 import enum
 import logging
+import random
 
 class Placements(enum.Enum):
     CENTER = 1    
@@ -88,10 +89,38 @@ def _load_depth_image(filename, data_type):
     return torch.from_numpy(depth_img).type(data_type).reshape(1, h, w)
 
 def _load_normal_image(filename, data_type):
-    normal_img = numpy.array(cv2.imread(filename, cv2.IMREAD_ANYCOLOR | cv2.IMREAD_ANYDEPTH)).transpose(2, 0, 1)
+    normal_img = numpy.array(cv2.imread(filename, cv2.IMREAD_UNCHANGED)).transpose(2, 0, 1)
     c, h, w = normal_img.shape
     return torch.from_numpy(normal_img).reshape(c, h, w).type(data_type)
 
+def _rotate_image(image, idx):
+    width = image.shape[2]
+    if idx < 0 or idx >= width:
+        return
+    rotated = torch.roll(image, idx, 2)
+    return rotated
+
+def _get_rotation_matrix(idx, width, dim = 2):
+    theta = (float(idx) / float(width)) * 2.0 * numpy.pi
+    mat = [
+        [1.0,       0.0,              0.0],\
+        [0.0,       numpy.cos(theta),    numpy.sin(theta)],\
+        [0.0,       numpy.sin(theta),    numpy.cos(theta)]]
+    mat = numpy.asarray(mat, dtype = numpy.float32)
+    mat = mat.transpose()
+    return torch.as_tensor(torch.from_numpy(mat), dtype = torch.float32)
+
+def _rotate_normal_image(image, idx):
+    width = image.shape[2]
+    if idx < 0 or idx >= width:
+        return
+    rot_mat = _get_rotation_matrix(idx, width)
+    tmp_img = image.permute((1, 2, 0))
+    rot_img = torch.matmul(tmp_img, rot_mat)
+    rot_img = rot_img.permute((2, 0, 1))
+    rot_img = torch.roll(rot_img, idx, 2)
+    return rot_img
+    
 _image_loaders = {
     "color": lambda *params: _load_color_image(params[0], params[1]),
     "depth": lambda *params: _load_depth_image(params[0], params[1]),
