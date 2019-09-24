@@ -91,7 +91,7 @@ The 3D60 dataset is accompanied by [code @ GitHub](https://github.com/VCL3D/3D60
 
 - [ ] Load Data:
   - [x] Flexible PyTorch data loaders, configurable to load only specific parts, modalities or placements
-  - [ ] Longitudinal rotation (_i.e._ circular shift) data augmentation
+  - [x] Longitudinal rotation (_i.e._ circular shift) data augmentation
   - [x] Script to visualize the 3D60 dataset using visdom, as an example of using the PyTorch data loaders
 - [ ] Preparation Splits:
   - [ ] Script to calculate the depth map statistics for each of its parts (_i.e._ distinct 3D datasets)
