@@ -1,1 +1,4 @@
-# A 360<sup>o</sup> Vision Dataset of Multi-modal Spherical Panoramas
+# 3D60
+## A 360<sup>o</sup> Vision Dataset of Multi-modal Indoors Spherical Panoramas
+
+Details coming soon...
