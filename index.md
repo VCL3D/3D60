@@ -13,6 +13,11 @@ It comprises multi-modal stereo renders of scenes from realistic and synthetic l
 > Our __3D60__ dataset fills a very important gap in data-driven spherical 3D vision and, more specifically, for monocular and stereo dense depth and surface estimation.
 > _We originate by exploiting the efforts made in providing synthetic and real scanned 3D datasets of interior spaces and re-using them via ray-tracing in order to generate high quality, densely annotated spherical panoramas._
 
+## News & Updates
+
+- [x] _17 Oct 2019_: Released a real domain only version of the dataset that does not include SunCG and contains all viewpoints and modalities in a single Zenodo repository. Check the [download page](./download.md) for details
+  
+
 ## Description
 
 ### Formats
@@ -54,7 +59,7 @@ Our spherical panoramas are generated using the provided camera poses for Matter
     Access to 3D60 dataset requires to agree with the terms and conditions for each of the 3D datasets that were used to create (i.e. render) the 3D60 dataset. Therefore, in order to grant you access to this dataset, we need to you to first fill <a href="https://forms.gle/ikJW2QU88GDahEBr6">this request form.</a>
   </li>
   <li>
-    Then you need to perform request for access to Zenodo, the data hosting portal for 3D60 (more information can be found in our <a href="download.html">download</a> page). Due to data-size limitations, the dataset is split into three volumes, which respectively contain the <a href="https://zenodo.org/record/3407840#.XX06KygzaUk">Central</a> (<i>i.e.</i> Left-Down), <a href="https://zenodo.org/record/3407875#.XX08HCgzaUk">Right</a> and <a href="https://zenodo.org/record/3408441#.XX1QWCgzaUk">Up</a> viewpoints respectively. Therefore, a separate request for access needs to be made for each viewpoint to the corresponding Zenodo repository.
+    Then you need to perform request for access to Zenodo, the data hosting portal for 3D60 (more information can be found in our <a href="download.html">download</a> page). Due to data-size limitations, the dataset is split into three volumes, which respectively contain the <a href="https://zenodo.org/record/3407840#.XX06KygzaUk">Central</a> (<i>i.e.</i> Left-Down), <a href="https://zenodo.org/record/3407875#.XX08HCgzaUk">Right</a> and <a href="https://zenodo.org/record/3408441#.XX1QWCgzaUk">Up</a> viewpoints respectively. Therefore, a separate request for access needs to be made for each viewpoint to the corresponding Zenodo repository. We also offer a <a href="https://zenodo.org/record/3492155#.XagQA-gzaUk">Real Only</a> domain version of the dataset (<it>i.e.</it> Matterport3D and Stanford2D3D), which also contains all viewpoints (<it>i.e.</it> center, right and up) and all modalities (<it>i.e.</it> color, depth and normal) bundled up in a single Zenodo repository.
   </li>
 </ol>
 </p>
@@ -93,10 +98,10 @@ The 3D60 dataset is accompanied by [code @ GitHub](https://github.com/VCL3D/3D60
   - [x] Flexible PyTorch data loaders, configurable to load only specific parts, modalities or placements
   - [x] Longitudinal rotation (_i.e._ circular shift) data augmentation
   - [x] Script to visualize the 3D60 dataset using visdom, as an example of using the PyTorch data loaders
-- [ ] Preparation Splits:
-  - [ ] Script to calculate the depth map statistics for each of its parts (_i.e._ distinct 3D datasets)
-  - [ ] Script to estimate 'outlier' renders whose depth distributions lie away or exceed certain thresholds
-  - [ ] Script to generate train/test/val splits for each part of the dataset (using each 3D dataset's official splits), also ignoring 'outliers'
+- [x] Preparation Splits:
+  - [x] Script to calculate the depth map statistics for each of its parts (_i.e._ distinct 3D datasets)
+  - [x] Script to estimate 'outlier' renders whose depth distributions lie away or exceed certain thresholds
+  - [x] Script to generate train/test/val splits for each part of the dataset (using each 3D dataset's official splits), also ignoring 'outliers'
 
 ## Citations
 The 3D60 data have been generated during distinct works and thus, depending on which subset (_i.e._ modalities and/or placements) are used, please cite the corresponding papers as follows:
