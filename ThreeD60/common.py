@@ -104,7 +104,7 @@ def _get_rotation_matrix(idx, width, dim = 2):
     theta = (float(idx) / float(width)) * 2.0 * numpy.pi
     mat = [
         [1.0,       0.0,              0.0],\
-        [0.0,       numpy.cos(theta),    numpy.sin(theta)],\
+        [0.0,       numpy.cos(theta),    -numpy.sin(theta)],\
         [0.0,       numpy.sin(theta),    numpy.cos(theta)]]
     mat = numpy.asarray(mat, dtype = numpy.float32)
     mat = mat.transpose()
