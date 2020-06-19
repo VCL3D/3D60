@@ -4,10 +4,10 @@ import visualization
 from torch.utils.data import DataLoader
 
 if __name__ == "__main__":
-    datasets = ThreeD60.get_datasets(".//splits//3D60_train.txt", \
+    datasets = ThreeD60.get_datasets(".//splits//eccv18//caffe_train_allmods_abs.txt", \
         datasets=["suncg", "m3d", "s2d3d"],        
         placements=[ThreeD60.Placements.CENTER, ThreeD60.Placements.RIGHT, ThreeD60.Placements.UP],
-        image_types=[ThreeD60.ImageTypes.COLOR, ThreeD60.ImageTypes.DEPTH, ThreeD60.ImageTypes.NORMAL], longitudinal_rotation=True)
+        image_types=[ThreeD60.ImageTypes.COLOR, ThreeD60.ImageTypes.DEPTH, ThreeD60.ImageTypes.NORMAL], longitudinal_rotation=False)
     print("Loaded %d samples." % len(datasets))
     
     viz = visualization.VisdomImageVisualizer("3D60", "127.0.0.1")
