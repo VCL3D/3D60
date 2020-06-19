@@ -1,3 +1,15 @@
+[![OmniDepth](http://img.shields.io/badge/OmniDepth-arxiv.1807.09620-critical.svg?style=plastic)](https://arxiv.org/pdf/1807.09620.pdf)
+[![Conference](http://img.shields.io/badge/ECCV-2018-blue.svg?style=plastic)](https://eccv2018.org/)
+[![Project Page](http://img.shields.io/badge/Project-Page-blueviolet.svg?style=plastic)](https://vcl3d.github.io/3D60/)
+
+[![Spherical View Synthesis](http://img.shields.io/badge/SphericalViewSynthesis-arxiv.1909.08112-critical.svg?style=plastic)](https://arxiv.org/pdf/1909.08112.pdf)
+[![Conference](http://img.shields.io/badge/3DV-2019-blue.svg?style=plastic)](http://3dv19.gel.ulaval.ca/)
+[![Project Page](http://img.shields.io/badge/Project-Page-blueviolet.svg?style=plastic)](https://vcl3d.github.io/SphericalViewSynthesis/)
+
+[![Surface Regression](http://img.shields.io/badge/SurfaceRegression-arxiv.1909.07043-critical.svg?style=plastic)](https://arxiv.org/pdf/1909.07043.pdf)
+[![Conference](http://img.shields.io/badge/3DV-2019-blue.svg?style=plastic)](http://3dv19.gel.ulaval.ca/)
+[![Project Page](http://img.shields.io/badge/Project-Page-blueviolet.svg?style=plastic)](https://vcl3d.github.io/HyperSphereSurfaceRegression/)
+
 # 3D60 Toolset
 A set of tools for working with the [3D60 dataset](https://vcl3d.github.io/3D60/):
  - PyTorch data loaders
