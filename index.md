@@ -57,9 +57,9 @@ Our spherical panoramas are generated using the provided camera poses for Matter
 # Usage
 
 ## Download
-<p style="text-align: justify;">
+
 <p><b>Important:</b> Please download the new <a href="https://vcl3d.github.io/Pano3D/">Pano3D</a> dataset which supersedes 3D60. Note that only 3D60 currently offers stereo renders and not Pano3D. If you need the stereo renders follow the striked-through process below, otherwise see the <a href="https://vcl3d.github.io/Pano3D/download/">download data</a> section of Pano3D.</p>
-<p style="text-align: justify;">
+
 <p style="text-align: justify;">
 <p><s>We follow a <b>two-step</b> procedure to download the <b>3D60</b> dataset.</s></p>
 <p style="text-align: justify;">
