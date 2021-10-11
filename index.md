@@ -15,6 +15,12 @@ It comprises multi-modal stereo renders of scenes from realistic and synthetic l
 
 ## News & Updates
 
+- [x] _11 Oct 2021_: **An updated spherical depth estimation dataset (see [here](https://vcl3d.github.io/Pano3D/)] has been released** that fixes the lighting bias issue introduced during rendering and additionally contains:  
+  - A solid baseline
+  - New metrics
+  - Additional data (GibsonV2)
+  - Higher resolution renders
+  - Distribution shifted splits
 - [x] _17 Oct 2019_: Released a real domain only version of the dataset that does not include SunCG and contains all viewpoints and modalities in a single Zenodo repository. Check the [download page](./download.md) for details
   
 
