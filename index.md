@@ -15,7 +15,7 @@ It comprises multi-modal stereo renders of scenes from realistic and synthetic l
 
 ## News & Updates
 
-- [x] _11 Oct 2021_: **An updated spherical depth estimation dataset (see [here](https://vcl3d.github.io/Pano3D/)] has been released** that fixes the lighting bias issue introduced during rendering and additionally contains:  
+- [x] _11 Oct 2021_: <mark><b>Major Update:</b></mark> **An updated spherical depth estimation dataset (see [here](https://vcl3d.github.io/Pano3D/)] has been released** that fixes the lighting bias issue introduced during rendering and additionally contains:  
   - A solid baseline
   - New metrics
   - Additional data (GibsonV2)
@@ -58,7 +58,7 @@ Our spherical panoramas are generated using the provided camera poses for Matter
 
 ## Download
 
-<p><mark><b>Important:</b> Please download the new <a href="https://vcl3d.github.io/Pano3D/">Pano3D</a> dataset which supersedes 3D60. Note that only 3D60 currently offers stereo renders and not Pano3D. If you need the stereo renders follow the striked-through process below, otherwise see the <a href="https://vcl3d.github.io/Pano3D/download/">download data</a> section of Pano3D.</mark></p>
+<p><mark><b>Important:</b></mark> Please download the new <a href="https://vcl3d.github.io/Pano3D/">Pano3D</a> dataset which supersedes 3D60. Note that only 3D60 currently offers stereo renders and not Pano3D. If you need the stereo renders follow the striked-through process below, otherwise see the <a href="https://vcl3d.github.io/Pano3D/download/">download data</a> section of Pano3D.</p>
 
 <p style="text-align: justify;">
 <p><s>We follow a <b>two-step</b> procedure to download the <b>3D60</b> dataset.</s></p>
