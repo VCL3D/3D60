@@ -58,11 +58,11 @@ Our spherical panoramas are generated using the provided camera poses for Matter
 
 ## Download
 
-<p><b>Important:</b> Please download the new <a href="https://vcl3d.github.io/Pano3D/">Pano3D</a> dataset which supersedes 3D60. Note that only 3D60 currently offers stereo renders and not Pano3D. If you need the stereo renders follow the striked-through process below, otherwise see the <a href="https://vcl3d.github.io/Pano3D/download/">download data</a> section of Pano3D.</p>
+<p><mark><b>Important:</b> Please download the new <a href="https://vcl3d.github.io/Pano3D/">Pano3D</a> dataset which supersedes 3D60. Note that only 3D60 currently offers stereo renders and not Pano3D. If you need the stereo renders follow the striked-through process below, otherwise see the <a href="https://vcl3d.github.io/Pano3D/download/">download data</a> section of Pano3D.</mark></p>
 
 <p style="text-align: justify;">
 <p><s>We follow a <b>two-step</b> procedure to download the <b>3D60</b> dataset.</s></p>
-<p style="text-align: justify;">
+<p style="text-align: justify;"><s>
 <ol>
   <li>
     Access to 3D60 dataset requires agreement with the terms and conditions of each of the 3D datasets that were used to create (i.e. render) the 3D60 dataset. Therefore, in order to grant you access to this dataset, we need you to first fill <a href="https://forms.gle/ikJW2QU88GDahEBr6">this request form.</a>
@@ -71,15 +71,15 @@ Our spherical panoramas are generated using the provided camera poses for Matter
     Then you need to perform a request for access to Zenodo, the data hosting portal for 3D60 (more information can be found in our <a href="download.html">download</a> page). Due to data-size limitations, the dataset is split into three volumes, which respectively contain the <a href="https://zenodo.org/record/3407840#.XX06KygzaUk">Central</a> (<i>i.e.</i> Left-Down), <a href="https://zenodo.org/record/3407875#.XX08HCgzaUk">Right</a> and <a href="https://zenodo.org/record/3408441#.XX1QWCgzaUk">Up</a> viewpoints respectively. Therefore, a separate request for access needs to be made for each viewpoint to the corresponding Zenodo repository. We also offer a <a href="https://zenodo.org/record/3492155#.XagQA-gzaUk">Real Only</a> domain version of the dataset (<it>i.e.</it> Matterport3D and Stanford2D3D), which also contains all viewpoints (<it>i.e.</it> center, right and up) and all modalities (<it>i.e.</it> color, depth and normal) bundled up in a single Zenodo repository.
   </li>
 </ol>
-</p>
-<p style="text-align: justify;">
+</s></p>
+<p style="text-align: justify;"><s>
   <b>Note</b> that only completing one step of the two (<i>i.e.</i> only filling out the form, or only requesting access from the Zenodo repositories) <b>will not</b> be enough to get access to the data. We will do our best to contact you in such cases and notify you to complete all steps as needed, but our mails may be lost (e.g. spam filters/folders). 
   The only exception to this, is if you have already filled in the form and need access to another Zenodo repository (for example you need extra viewpoint renders which are hosted on different Zenodo repositories), then you only need to fill in the Zenodo request but please, make sure to mention that the form has already been filled in so that we can verify it.
-</p>
+</s></p>
 
-<p style="text-align: justify;">
+<p style="text-align: justify;"><s>
 Each volume is broken down in several <code>.zip</code> files (2GB each) for more convenient downloading on low bandwidth connections. You need all the <code>.zip</code> archives of each volume in order to extract the containing files.
-</p>
+</s></p>
 </p>
 
 
