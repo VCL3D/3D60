@@ -1,4 +1,4 @@
-> ![IMPORTANT](https://img.shields.io/badge/IMPORTANT-DATA--UPDATE-C70039?style=for-the-badge&logo=dataversioncontrol) An updated dataset is now available which fixes a critical issue with 3D60, the lighting bias introduced by the light source placed at the origin. More information can be found at the [Pano3D project page](https://vcl3d.github.io/Pano3D/).
+> ![IMPORTANT](https://img.shields.io/badge/IMPORTANT-DATA_UPDATE-C70039?style=plastic&logo=dataversioncontrol&logoWidth=40&logoColor=C70039) An updated dataset is now available which fixes a critical issue with 3D60, the lighting bias introduced by the light source placed at the origin. More information can be found at the [Pano3D project page](https://vcl3d.github.io/Pano3D/).
 
 [![OmniDepth](http://img.shields.io/badge/OmniDepth-arxiv.1807.09620-critical.svg?style=plastic)](https://arxiv.org/pdf/1807.09620.pdf)
 [![Conference](http://img.shields.io/badge/ECCV-2018-blue.svg?style=plastic)](https://eccv2018.org/)
